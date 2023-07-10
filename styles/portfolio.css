@@ -1,13 +1,15 @@
+/* nav related styles */
 body{
-    
     font-family: 'Open Sans', sans-serif;
 }
 .text-primary{
    color:#FD6E0A ;
 }
 nav{
+    margin: 0 170px ;
     display: flex;
     justify-content: space-between;
+
 }
 .nav-title{
     color: #181818;
@@ -37,4 +39,21 @@ nav a{
     color: white;
     font-weight: 700;
     padding:15px 35px;
+}
+
+/* header related styles */
+.header{
+    background-color:#FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+
+}
+.profile-picture{
+    width: 400px;
+    
+
+
 }
