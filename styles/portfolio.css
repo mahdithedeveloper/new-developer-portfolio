@@ -154,8 +154,47 @@ nav a{
 .resume-column-title{
     color: var(--dark-02, #474747);
 font-family: Open Sans;
-font-size: 25px;
+font-size: 30px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+margin-bottom: 60px;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+
+
+.resume-item-title{
+    color: var(--dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+footer{
+    gap: 100px;
+    display: flex;
+    background-color: #efe2d8;
+    padding: 130px 200px;
+    margin-top: 130px;
+}
+.footer-column{
+    width:50% ;
+}
+.contact input[type="text"],.contact input[type="email"], textarea{
+    border-radius: 5px;
+    border: 0
+    ;
+    background: #FFF;
+    display: block;
+    padding: 18px 35px;
+    margin-bottom: 25px;
+    width: 100%;
 }
